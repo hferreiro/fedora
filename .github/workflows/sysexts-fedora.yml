@@ -98,6 +98,12 @@ jobs:
           sysext: 'emacs'
           image: ${{ env.IMAGE }}
 
+      - name: "Build sysext: et"
+        uses: ./.github/actions/build
+        with:
+          sysext: 'et'
+          image: ${{ env.IMAGE }}
+
       - name: "Build sysext: erofs-utils"
         uses: ./.github/actions/build
         with:
@@ -407,6 +413,12 @@ jobs:
           sysext: 'emacs'
           image: ${{ env.IMAGE }}
 
+      - name: "Build sysext: et"
+        uses: ./.github/actions/build
+        with:
+          sysext: 'et'
+          image: ${{ env.IMAGE }}
+
       - name: "Build sysext: erofs-utils"
         uses: ./.github/actions/build
         with:
@@ -714,6 +726,12 @@ jobs:
         uses: ./.github/actions/build
         with:
           sysext: 'emacs'
+          image: ${{ env.IMAGE }}
+
+      - name: "Build sysext: et"
+        uses: ./.github/actions/build
+        with:
+          sysext: 'et'
           image: ${{ env.IMAGE }}
 
       - name: "Build sysext: erofs-utils"
@@ -1403,6 +1421,12 @@ jobs:
           sysext: 'emacs'
           image: ${{ env.IMAGE }}
 
+      - name: "Build sysext: et"
+        uses: ./.github/actions/build
+        with:
+          sysext: 'et'
+          image: ${{ env.IMAGE }}
+
       - name: "Build sysext: erofs-utils"
         uses: ./.github/actions/build
         with:
@@ -1712,6 +1736,12 @@ jobs:
           sysext: 'emacs'
           image: ${{ env.IMAGE }}
 
+      - name: "Build sysext: et"
+        uses: ./.github/actions/build
+        with:
+          sysext: 'et'
+          image: ${{ env.IMAGE }}
+
       - name: "Build sysext: erofs-utils"
         uses: ./.github/actions/build
         with:
@@ -2019,6 +2049,12 @@ jobs:
         uses: ./.github/actions/build
         with:
           sysext: 'emacs'
+          image: ${{ env.IMAGE }}
+
+      - name: "Build sysext: et"
+        uses: ./.github/actions/build
+        with:
+          sysext: 'et'
           image: ${{ env.IMAGE }}
 
       - name: "Build sysext: erofs-utils"
